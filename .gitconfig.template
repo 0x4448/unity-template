@@ -1,0 +1,12 @@
+# Template for .gitconfig
+# Modify your copy as needed
+
+
+# Use smart merge
+# https://docs.unity3d.com/Manual/SmartMerge.html
+[merge]
+tool = unityyamlmerge
+
+[mergetool "unityyamlmerge"]
+trustExitCode = false
+cmd = 'C:\Path\To\UnityYAMLMerge.exe' merge -p "$BASE" "$REMOTE" "$LOCAL" "$MERGED"
