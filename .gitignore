@@ -58,5 +58,6 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
-# Files with unique values
+# Files with potentially unique values
 .gitconfig
+.vscode/settings.json
